@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.top-container {
+  background-color: azure;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#pro {
+  text-decoration: underline;
+}
+
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: olivedrab;
+}
