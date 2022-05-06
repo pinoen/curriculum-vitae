@@ -32,17 +32,14 @@ h1 {
 }
 
 .middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: bisque;
 }
 
 h2 {
   font-family: "Red Hat Mono", monospace;
 }
+h2 {
+  font-family: "Red Hat Mono", monospace;
+}
 
 .bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: olivedrab;
 }
