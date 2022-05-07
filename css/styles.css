@@ -51,9 +51,10 @@ hr {
   margin: 100px auto;
 }
 
-#bio {
-  width: 50%;
+.bio {
+  width: 75%;
   margin: auto;
+  text-align: justify;
 }
 
 h2 {
@@ -70,10 +71,24 @@ h3 {
 .skill-row {
   width: 50%;
   margin: 100px auto;
-  text-align: left;
+  text-align: justify;
 }
-.skill-row img {
-  width: 25%;
+
+.oil {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.logo {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.icon {
+  width: 3%;
   float: left;
   margin-right: 30px;
 }
@@ -89,8 +104,9 @@ h3 {
 }
 
 #contact-message {
-  width: 50%;
+  width: 75%;
   margin: auto;
+  text-align: justify;
 }
 
 #btn {
@@ -118,9 +134,10 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #eaf6f6;
+  color: #272c2c;
 }
 
 .bottom-container p {
   color: #eaf6f6;
+  font-size: small;
 }
