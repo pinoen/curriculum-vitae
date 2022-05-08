@@ -7,6 +7,42 @@ body {
   line-height: 1.5;
 }
 
+.nav-bar {
+  background: #acb9ce;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar .cv {
+  font-size: x-large;
+  font-weight: bold;
+  color: #272c2c;
+  padding-left: 20px;
+}
+
+.nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-bar a:hover {
+  color: rgb(190, 144, 43);
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
 .top-container {
   background-color: #eaf6f6;
   position: relative;
