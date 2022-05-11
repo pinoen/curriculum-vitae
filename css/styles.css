@@ -46,13 +46,20 @@ body {
 .top-container {
   background-color: #eaf6f6;
   position: relative;
-  padding-top: 150px;
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
 
 #top-cloud {
   position: absolute;
   right: 300px;
-  top: 75px;
+  top: 275px;
+}
+#top-cono {
+  position: absolute;
+  right: 150px;
+  top: 300px;
+  width: 10%;
 }
 
 h1 {
@@ -70,8 +77,18 @@ h1 {
 
 #bottom-cloud {
   position: absolute;
-  top: 350px;
+  top: 325px;
   left: 250px;
+}
+#safety-first {
+  width: 35%;
+  margin-top: 25px;
+}
+#bottom-cono {
+  position: absolute;
+  bottom: 50px;
+  left: 150px;
+  width: 10%;
 }
 
 hr {
@@ -99,14 +116,21 @@ h2 {
   color: #66bfbf;
   font-weight: normal;
 }
+
 h3 {
   font-family: "Red Hat Mono", monospace;
+  text-align: center;
   color: #11999e;
 }
 
 .skill-row {
   width: 50%;
   margin: 100px auto;
+  text-align: justify;
+}
+#tasks {
+  width: 50%;
+  margin: 20px auto;
   text-align: justify;
 }
 
@@ -127,6 +151,10 @@ h3 {
   width: 3%;
   float: left;
   margin-right: 30px;
+}
+
+.skill-row li {
+  list-style-type: square;
 }
 
 .bottom-container {
