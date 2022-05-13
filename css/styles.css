@@ -244,3 +244,23 @@ a:hover {
   color: #eaf6f6;
   font-size: small;
 }
+
+@media (max-width: 768px) {
+  * {
+    width: auto;
+    line-height: 1;
+  }
+  .nav-bar {
+    flex-direction: column;
+    height: auto;
+  }
+  .nav-bar a {
+    font-size: 15px;
+    margin: 5px 5px;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+  }
+}
