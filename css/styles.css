@@ -88,6 +88,15 @@ h1 {
   left: 150px;
   width: 10%;
 }
+#profile {
+  border-radius: 35%;
+  border: #eaf6f6 solid 5px;
+}
+#other-pic {
+  width: 20%;
+  border-radius: 35%;
+  border: #eaf6f6 solid 5px;
+}
 
 hr {
   border-top: 15px dotted #eaf6f6;
@@ -174,6 +183,11 @@ h3 {
 
 .icon {
   width: 3%;
+  float: left;
+  margin-right: 30px;
+}
+.human-img {
+  width: 35%;
   float: left;
   margin-right: 30px;
 }
