@@ -7,6 +7,10 @@ body {
   line-height: 1.5;
 }
 
+a {
+  pointer-events: none;
+}
+
 .nav-bar {
   background: #acb9ce;
   color: #fff;
